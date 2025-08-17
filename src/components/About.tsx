@@ -71,7 +71,7 @@ const About: React.FC = () => {
           
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/src/assets/hotel-maheshwari-reception.webp"
               alt="Hotel Reception"
               className="rounded-2xl shadow-2xl w-full"
             />
