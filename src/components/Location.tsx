@@ -83,7 +83,7 @@ const Location: React.FC = () => {
             
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/src/assets/hotel-maheshwari-location.jpg"
                 alt="Madhepura City View"
                 className="rounded-xl shadow-lg w-full"
               />
