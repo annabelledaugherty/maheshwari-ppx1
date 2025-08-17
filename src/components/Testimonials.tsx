@@ -1,51 +1,99 @@
 import React from 'react';
-import { Star, Quote } from 'lucide-react';
+import { Star, Quote, ChevronDown } from 'lucide-react';
 
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      name: 'Rajesh Kumar',
-      location: 'Patna, Bihar',
+      name: 'Sovan Chakraborty',
+      location: 'Business • Solo',
       rating: 5,
-      comment: 'Excellent hygiene standards and cooperative staff. The location near railway station made my business trip very convenient.',
+      comment: 'Overall nice hotel & great staff behavior and also food quality is awesome. Rooms, service, and location all excellent.',
       image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Priya Sharma',
-      location: 'Delhi',
-      rating: 4,
-      comment: 'Clean and spacious rooms with tasty food. The special tea service is absolutely amazing! Staff was very helpful.',
+      name: 'Abhishek Kumar',
+      location: 'Guest Review',
+      rating: 5,
+      comment: 'I would rate 5 stars for such nice behavior of staff and very good rooms. Best hotel in Madhepura. Hotel interior is quite beautiful and beyond my expectations.',
       image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Amit Singh',
-      location: 'Kolkata',
+      name: 'Uma Maheswara Reddy',
+      location: 'Holiday • Family',
       rating: 5,
-      comment: 'Good value for money with excellent service. The front desk management was quick and efficient. Highly recommended!',
+      comment: 'Good hospitality and food was fabulous and tasty. Restaurant manager Mr. Sudip was a wonderful host. This was a pleasant experience.',
       image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Sunita Devi',
-      location: 'Darbhanga, Bihar',
-      rating: 4,
-      comment: 'Perfect for family stays. The family room was spacious and comfortable. Kids enjoyed the friendly environment.',
+      name: 'Chandan Kumar',
+      location: 'Guest Review',
+      rating: 5,
+      comment: 'Room service very good. Best for Madhepura district. Staff behavior also very polite.',
       image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Mohammad Rahman',
-      location: 'Dhaka, Bangladesh',
+      name: 'Shobhakant Roy',
+      location: 'Guest Review',
       rating: 5,
-      comment: 'Outstanding hospitality! The staff went above and beyond to make our stay comfortable. Great location and clean facilities.',
+      comment: 'One of the best hotels in Madhepura with affordable price. You can get delicious coffee for just ₹20.',
       image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
-      name: 'Anita Jha',
-      location: 'Purnia, Bihar',
-      rating: 4,
-      comment: 'Lovely stay with traditional Bihar warmth. The restaurant food was delicious and the rooms were well-maintained.',
+      name: 'Mohit Mittal',
+      location: 'Business',
+      rating: 5,
+      comment: 'The best place to stay and the staff is highly cooperative. The food is best among all districts of Simanchal. Excellent rooms, service, and location.',
+      image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+    },
+    {
+      name: 'Nimesh Jaiswal',
+      location: 'Guest Review',
+      rating: 5,
+      comment: 'It\'s a family-friendly hotel and restaurant. Taste was perfect and rooms too.',
+      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+    },
+    {
+      name: 'Akshaye Mane',
+      location: 'Guest Review',
+      rating: 5,
+      comment: 'Good hotel and the staff and cleanliness is great, food is very delicious.',
+      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+    }
+  ];
+
+  const additionalTestimonials = [
+    {
+      name: 'Abhinav Kumar',
+      location: 'Guest Review',
+      rating: 5,
+      comment: 'Nice place for dinner and lunch. Good service with great taste at good price.',
+      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+    },
+    {
+      name: 'Roshan Singh',
+      location: 'Guest Review',
+      rating: 5,
+      comment: 'Very nice neat and clean rooms. Prime location in Madhepura - the heart of Madhepura district.',
+      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+    },
+    {
+      name: 'Guest Review',
+      location: 'Recent Stay',
+      rating: 5,
+      comment: 'Very beautiful room with excellent bathroom arrangement. Everything was very nice and well-organized.',
+      image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+    },
+    {
+      name: 'Business Traveler',
+      location: 'Business Trip',
+      rating: 5,
+      comment: 'Positive experience during business trip. Excellent rooms and service quality.',
       image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     }
   ];
+
+  const [showMore, setShowMore] = React.useState(false);
+  const displayedTestimonials = showMore ? [...testimonials, ...additionalTestimonials] : testimonials;
 
   return (
     <section id="testimonials" className="py-16 sm:py-20 bg-amber-50">
@@ -70,15 +118,15 @@ const Testimonials: React.FC = () => {
           <p className="text-gray-600 mb-6">Based on verified guest reviews</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="bg-green-50 p-4 rounded-lg">
-              <div className="text-2xl font-bold text-green-600">50%</div>
+              <div className="text-2xl font-bold text-green-600">95%</div>
               <div className="text-sm text-gray-600">Excellent Reviews</div>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
-              <div className="text-2xl font-bold text-blue-600">32%</div>
-              <div className="text-sm text-gray-600">Good Reviews</div>
+              <div className="text-2xl font-bold text-blue-600">5.0</div>
+              <div className="text-sm text-gray-600">Average Rating</div>
             </div>
             <div className="bg-amber-50 p-4 rounded-lg">
-              <div className="text-2xl font-bold text-amber-600">100+</div>
+              <div className="text-2xl font-bold text-amber-600">200+</div>
               <div className="text-sm text-gray-600">Happy Guests</div>
             </div>
           </div>
@@ -86,7 +134,7 @@ const Testimonials: React.FC = () => {
 
         {/* Individual Testimonials */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((testimonial, index) => (
+          {displayedTestimonials.map((testimonial, index) => (
             <div
               key={index}
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
@@ -117,6 +165,19 @@ const Testimonials: React.FC = () => {
             </div>
           ))}
         </div>
+
+        {/* Load More Button */}
+        {!showMore && (
+          <div className="mt-8 text-center">
+            <button
+              onClick={() => setShowMore(true)}
+              className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-200 hover:border-gray-300 transition-all duration-200"
+            >
+              <span>Load More Reviews</span>
+              <ChevronDown className="w-4 h-4" />
+            </button>
+          </div>
+        )}
 
         {/* Call to Action */}
         <div className="mt-12 text-center">
