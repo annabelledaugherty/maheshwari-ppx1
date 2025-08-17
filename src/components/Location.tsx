@@ -1,5 +1,9 @@
 import React from 'react';
 import { MapPin, Train, Plane, Clock, Utensils } from 'lucide-react';
+import singheshwarTempleImg from '../assets/singheshwartemple.webp';
+import nayanagarDurgaImg from '../assets/nayanagar-durga copy.jpeg';
+import maChandikaImg from '../assets/machandisthan.jpg';
+import hotelLocationImg from '../assets/hotel-maheshwari-location.jpg';
 
 const Location: React.FC = () => {
   const nearbyAttractions = [
@@ -7,19 +11,19 @@ const Location: React.FC = () => {
       name: 'Singheshwar Temple',
       distance: '8 km',
       description: 'Ancient Shiva temple with historic significance from Ramayana',
-      image: '/src/assets/singheshwartemple.webp'
+      image: singheshwarTempleImg
     },
     {
       name: 'Nayanagar Durga Sthan',
       distance: '35 km',
       description: 'Famous pilgrimage destination known for wish fulfillment',
-      image: '/src/assets/nayanagar-durga copy.jpeg'
+      image: nayanagarDurgaImg
     },
     {
       name: 'Ma Chandika Mandir',
       distance: '20 km',
       description: 'Scenic views and boating opportunities along the river',
-      image: '/src/assets/machandisthan.jpg'
+      image: maChandikaImg
     }
   ];
 
@@ -83,7 +87,7 @@ const Location: React.FC = () => {
             
             <div className="relative">
               <img
-                src="/src/assets/hotel-maheshwari-location.jpg"
+                src={hotelLocationImg}
                 alt="Madhepura City View"
                 className="rounded-xl shadow-lg w-full"
               />
