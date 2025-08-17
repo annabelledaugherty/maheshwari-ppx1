@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-5 h-5 fill-amber-400 text-amber-400" />
             ))}
-            <span className="ml-2 text-amber-200 font-medium">4.1/5 Rating</span>
+            <span className="ml-2 text-amber-200 font-medium">4.6/5 Rating</span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
             Welcome to
