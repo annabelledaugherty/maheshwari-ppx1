@@ -15,7 +15,7 @@ const Testimonials: React.FC = () => {
       location: 'Guest Review',
       rating: 5,
       comment: 'I would rate 5 stars for such nice behavior of staff and very good rooms. Best hotel in Madhepura. Hotel interior is quite beautiful and beyond my expectations.',
-      image: 'https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Uma Maheswara Reddy',
