@@ -56,7 +56,7 @@ const About: React.FC = () => {
             </p>
             <div className="flex items-center gap-4 pt-4">
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-amber-600">4.1</div>
+                <div className="text-2xl sm:text-3xl font-bold text-amber-600">4.6</div>
                 <div className="text-sm text-gray-500">Guest Rating</div>
               </div>
               <div className="text-center">
