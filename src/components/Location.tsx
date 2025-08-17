@@ -13,7 +13,7 @@ const Location: React.FC = () => {
       name: 'Nayanagar Durga Sthan',
       distance: '35 km',
       description: 'Famous pilgrimage destination known for wish fulfillment',
-      image: 'https://images.pexels.com/photos/1007025/pexels-photo-1007025.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/src/assets/nayanagar-durga copy.jpeg'
     },
     {
       name: 'Ma Chandika Mandir',
