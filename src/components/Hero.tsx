@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Train, Star, Phone } from 'lucide-react';
+import hotelFrontImg from '../assets/hotel-maheshari-front.webp';
 
 const Hero: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          src={hotelFrontImg}
           alt="Luxury Hotel Interior"
           className="w-full h-full object-cover"
         />
