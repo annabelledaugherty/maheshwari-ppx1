@@ -7,19 +7,19 @@ const Location: React.FC = () => {
       name: 'Singheshwar Temple',
       distance: '8 km',
       description: 'Ancient Shiva temple with historic significance from Ramayana',
-      image: '/src/assets/singheshwartemple.webp'
+      image: 'https://images.pexels.com/photos/3356489/pexels-photo-3356489.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       name: 'Nayanagar Durga Sthan',
       distance: '35 km',
       description: 'Famous pilgrimage destination known for wish fulfillment',
-      image: '/src/assets/nayanagar-durga copy.jpeg'
+      image: 'https://images.pexels.com/photos/3356489/pexels-photo-3356489.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       name: 'Ma Chandika Mandir',
       distance: '20 km',
-      description: 'Scenic views and boating opportunities along the river',
-      image: '/src/assets/machandisthan.jpg'
+      description: 'Sacred temple dedicated to Goddess Chandika with beautiful architecture',
+      image: 'https://images.pexels.com/photos/3356489/pexels-photo-3356489.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
   ];
 
@@ -83,7 +83,7 @@ const Location: React.FC = () => {
             
             <div className="relative">
               <img
-                src="/src/assets/hotel-maheshwari-location.jpg"
+                src="https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Madhepura City View"
                 className="rounded-xl shadow-lg w-full"
               />
