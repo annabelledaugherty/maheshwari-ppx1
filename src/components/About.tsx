@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Shield, Users, MapPin } from 'lucide-react';
+import hotelReceptionImg from '../assets/hotel-maheshwari-reception.webp';
 
 const About: React.FC = () => {
   const features = [
@@ -71,7 +72,7 @@ const About: React.FC = () => {
           
           <div className="relative">
             <img
-              src="/src/assets/hotel-maheshwari-reception.webp"
+              src={hotelReceptionImg}
               alt="Hotel Reception"
               className="rounded-2xl shadow-2xl w-full"
             />
