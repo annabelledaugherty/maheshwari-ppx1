@@ -16,10 +16,10 @@ const Location: React.FC = () => {
       image: 'https://images.pexels.com/photos/1007025/pexels-photo-1007025.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-      name: 'Kosi River Banks',
-      distance: '12 km',
+      name: 'Ma Chandika Mandir',
+      distance: '20 km',
       description: 'Scenic views and boating opportunities along the river',
-      image: 'https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/src/assets/machandisthan.jpg'
     }
   ];
 
