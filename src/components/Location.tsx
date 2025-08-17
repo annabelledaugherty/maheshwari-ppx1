@@ -7,7 +7,7 @@ const Location: React.FC = () => {
       name: 'Singheshwar Temple',
       distance: '8 km',
       description: 'Ancient Shiva temple with historic significance from Ramayana',
-      image: 'https://images.pexels.com/photos/12789/pexels-photo-12789.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/src/assets/singheshwartemple.webp'
     },
     {
       name: 'Nayanagar Durga Sthan',
