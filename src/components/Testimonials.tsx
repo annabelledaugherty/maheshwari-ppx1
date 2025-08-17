@@ -15,7 +15,7 @@ const Testimonials: React.FC = () => {
       location: 'Guest Review',
       rating: 5,
       comment: 'I would rate 5 stars for such nice behavior of staff and very good rooms. Best hotel in Madhepura. Hotel interior is quite beautiful and beyond my expectations.',
-      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Uma Maheswara Reddy',
@@ -29,7 +29,7 @@ const Testimonials: React.FC = () => {
       location: 'Guest Review',
       rating: 5,
       comment: 'Room service very good. Best for Madhepura district. Staff behavior also very polite.',
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Shobhakant Roy',
@@ -43,21 +43,21 @@ const Testimonials: React.FC = () => {
       location: 'Business',
       rating: 5,
       comment: 'The best place to stay and the staff is highly cooperative. The food is best among all districts of Simanchal. Excellent rooms, service, and location.',
-      image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Nimesh Jaiswal',
       location: 'Guest Review',
       rating: 5,
       comment: 'It\'s a family-friendly hotel and restaurant. Taste was perfect and rooms too.',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Akshaye Mane',
       location: 'Guest Review',
       rating: 5,
       comment: 'Good hotel and the staff and cleanliness is great, food is very delicious.',
-      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     }
   ];
 
