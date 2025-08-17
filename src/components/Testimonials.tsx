@@ -50,14 +50,14 @@ const Testimonials: React.FC = () => {
       location: 'Guest Review',
       rating: 5,
       comment: 'It\'s a family-friendly hotel and restaurant. Taste was perfect and rooms too.',
-      image: 'https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Akshaye Mane',
       location: 'Guest Review',
       rating: 5,
       comment: 'Good hotel and the staff and cleanliness is great, food is very delicious.',
-      image: 'https://images.pexels.com/photos/1484794/pexels-photo-1484794.jpg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
+      image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     }
   ];
 
